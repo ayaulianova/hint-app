@@ -1,0 +1,18 @@
+  ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    border-right: 1px solid #61dafb;
+    padding-right: 2vmin;
+  }
+  
+  li{
+    list-style: none;
+    text-align: left;
+
+    &:hover,
+    .active {
+        color: #09d3ac;
+    }
+  }
+  
