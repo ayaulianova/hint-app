@@ -1,10 +1,10 @@
 import React from 'react'
-import List from './components/List/List'
-import Description from './components/Description/Description'
-import descriptions from './descriptions'
+import List from './containers/List/List'
+import Description from './containers/Description/Description'
+import descriptions from './constants/descriptions'
 import './App.css'
 
-function App() {
+export default function App() {
 
   return (
     <div className="App">
@@ -13,5 +13,3 @@ function App() {
     </div>
   )
 }
-
-export default App

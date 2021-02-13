@@ -1,7 +1,7 @@
-import React, { useState, useEffect, useLayoutEffect } from 'react'
+import React from 'react'
 import './Description.scss'
 
-function Description() {
+export default function Description() {
   const { descriptions } = this.props  
 
   return(
@@ -11,5 +11,3 @@ function Description() {
     </div>
   )
 }
-
-export default Description
