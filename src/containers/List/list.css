@@ -9,10 +9,10 @@
   li{
     list-style: none;
     text-align: left;
-
-    &:hover,
-    .active {
-        color: #09d3ac;
-    }
+  }
+  
+  li:hover,
+  .active {
+      color: #09d3ac;
   }
   
