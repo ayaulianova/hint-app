@@ -1,9 +1,9 @@
 import React from 'react'
 
 export default function Text() {
-    const { descriptions } = this.props
+    const { text } = this.props
 
     return(
-        <p>{descriptions.text}</p>
+        <p>{text}</p>
     )
 }

@@ -6,8 +6,8 @@ export default function Description() {
 
   return(
     <div>
-      <Title descriptions={descriptions} />
-      <Text descriptions={descriptions} /> 
+      <Title title={descriptions.title} />
+      <Text text={descriptions.text} /> 
     </div>
   )
 }
