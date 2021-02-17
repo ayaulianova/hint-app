@@ -1,9 +1,10 @@
 import React from 'react'
 
-export default function Title() {
-  const { title } = this.props
+const Title = () => {
 
   return (
-    <h3>{title ? `${title}` : `Пример кода`}</h3>
+    <h3>"Пример кода"</h3>
   )
 }
+
+export default Title

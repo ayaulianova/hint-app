@@ -1,4 +1,4 @@
-export const listOfPatterns = [
+const listOfPatterns = [
     "Abstract Factory",
     "Builder",
     "Factory Method",
@@ -24,3 +24,4 @@ export const listOfPatterns = [
     "Visitor",
     ]
     
+export default listOfPatterns

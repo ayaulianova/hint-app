@@ -1,9 +1,10 @@
 import React from 'react'
 
-export default function Text() {
-    const { text } = this.props
+const Text = () => {
 
     return(
-        <p>{text}</p>
+        <p>"Code Sample"</p>
     )
 }
+
+export default Text
