@@ -1,4 +1,4 @@
-export const descriptions = {
+const descriptions = {
   "Abstract Factory": {
     title: "Абстрактная фабрика",
     text: "Интерфейс или абстрактный, общий класс для создания семейств взаимосвязанных или взаимозависимых объектов, без указания их конкретных классов."
@@ -92,3 +92,5 @@ export const descriptions = {
     text: "",
   },
 };
+
+export default descriptions

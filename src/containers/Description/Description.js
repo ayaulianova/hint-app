@@ -1,13 +1,12 @@
 import React from 'react'
-import './Description.scss'
+import './Description.css'
 
 export default function Description() {
-  const { descriptions } = this.props  
-
+  
   return(
     <div>
-      <h1>{descriptions.title}</h1>
-      <p>{descriptions.text}</p>  
+      <h1>Описание</h1>
+      <p>Текст</p>  
     </div>
   )
 }
