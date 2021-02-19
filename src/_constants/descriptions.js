@@ -1,96 +1,119 @@
-const descriptions = {
-  "Abstract Factory": {
+const descriptions = [
+  {
+    patternName: "Abstract Factory",
     title: "Абстрактная фабрика",
     text: "Интерфейс или абстрактный, общий класс для создания семейств взаимосвязанных или взаимозависимых объектов, без указания их конкретных классов."
   },
-  "Builder": {
+  {
+    patternName: "Builder",
     title: "Строитель",
     text: "",
   },
-  "Factory Method": {
+  {
+    patternName: "Factory Method",
     title: "Фабричный метод",
     text: "Класс, который делегирует логику создания нужных экземпляров дочерним классам. Паттерн полезен, если логика работы подклассов одинаковая, но конкретный подкласс выясняется только во время выполнения программы.",
   },
-  "Prototype": {
+  {
+    patternName: "Prototype",
     title: "Прототип",
     text: "",
   },
-  "Singleton": {
+  {
+    patternName: "Singleton",
     title: "Одиночка",
     text: "Класс, который может иметь только один экземпляр и предоставляет глобальную точку доступа к нему.",
   },
-  "Adapter": {
+  {
+    patternName: "Adapter",
     title: "Адаптер",
     text: "",
   },
-  "Bridge": {
+  {
+    patternName: "Bridge",
     title: "Мост",
     text: "",
   },
-  "Composite": {
+  {
+    patternName: "Composite",
     title: "Компоновщик",
     text: "",
   },
-  "Decorator": {
+  {
+    patternName: "Decorator",
     title: "Декоратор",
     text: "",
   },
-  "Facade": {
+  {
+    patternName: "Facade", 
     title: "Фасад",
     text: "",
   },
-  "Flyweight": {
+  {
+    patternName: "Flyweight",
     title: "Приспособленец",
     text: "",
   },
-  "Proxy": {
+  {
+    patternName: "Proxy",
     title: "Прокси",
     text: "",
   },
-  "Chain of responsibility": {
+  {
+    patternName: "Chain of responsibility",
     title: "Цепочка обязанностей",
     text: "Рекуррентный конвейер из обработчиков, в котором каждый обработчик может либо обработать поступившее сообщение (например, только сообщения определенного типа), либо делегировать следующему. Возможен вариант обработки и последующей передачи. При этом клиенту, чтобы инициировать обработку сообщения, достаточно лишь передать его первому в конвейере обработчику.",
   },
-  "Command": {
+  {
+    patternName: "Command",
     title: "Команда",
     text: "",
   },
-  "Interpreter": {
+  {
+    patternName: "Interpreter",
     title: "Интерпретатор",
     text: "",
   },
-  "Iterator": {
+  {
+    patternName: "Iterator",
     title: "Итератор",
     text: "",
   },
-  "Mediator": {
+  {
+    patternName: "Mediator",
     title: "Посредник",
     text: "",
   },
-  "Memento": {
+  {
+    patternName: "Memento",
     title: "Хранитель",
     text: "Не нарушая инкапсуляцию, определяет и сохраняет внутреннее состояние объекта, позволяет позже восстановить объект в этом состоянии.",
   },
-  "Observer": {
+  {
+    patternName: "Observer",
     title: "наблюдатель",
     text: "",
   },
-  "State": {
+  {
+    patternName: "State",
     title: "Состояние",
     text: "",
   },
-  "Strategy": {
+  {
+    patternName: "Strategy",
     title: "Стратегия",
     text: "",
   },
-  "Template method": {
+  {
+    patternName: "Template method",
     title: "Шаблонный метод",
     text: "",
   },
-  "Visitor": {
+  {
+    patternName: "Visitor",
     title: "Посетитель",
     text: "",
   },
-};
+]
 
 export default descriptions
