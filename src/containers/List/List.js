@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
-import listOfPatterns from '../../constants/listOfPatterns'
-import './list.css'
+import listOfPatterns from '../../_constants/listOfPatterns'
+import './List.css'
 
 export default function List() {
     const [active, setActive] = useState(0)
