@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import listOfPatterns from '../../_constants/listOfPatterns'
+import listOfPatterns from '../../constants/listOfPatterns'
 import './List.css'
 
 export default function List() {

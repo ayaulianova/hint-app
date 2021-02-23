@@ -1,7 +1,7 @@
 import React from 'react'
 import Title from '../../components/Title/Title'
 import Text from '../../components/Text/Text'
-import descriptions from '../../_constants/descriptions'
+import descriptions from '../../constants/descriptions'
 import './Description.css'
 
 export default function Description() {  
