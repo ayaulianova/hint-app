@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import listOfPatterns from '../../constants/listOfPatterns'
+import { listOfPatterns } from '../../constants/listOfPatterns'
 import './List.css'
 
 export default function List() {
@@ -8,8 +8,8 @@ export default function List() {
     return(
       <ul>
         {listOfPatterns.map((i, index) => 
-          <li key={index} className={active ? "active" : ''} onClick={() => setActive(index)}>
-            {i.toString()}
+          <li key={index} className={active ? "active" : ''} onClick={() => setActive(i)}>
+            {i}
           </li>
         )}
       </ul>
