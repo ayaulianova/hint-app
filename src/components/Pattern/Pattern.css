@@ -1,0 +1,9 @@
+li {
+  list-style: none;
+  text-align: left;
+}
+
+li:hover,
+.active {
+  color: #09d3ac;
+}

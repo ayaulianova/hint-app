@@ -22,6 +22,6 @@ const listOfPatterns = [
     "Strategy",
     "Template method",
     "Visitor",
-    ];
+    ]
     
-export { listOfPatterns }; 
+export { listOfPatterns } 
