@@ -1,9 +1,14 @@
 import React from 'react'
+import PropTypes from 'prop-types'
 
-export default function Pattern(value) {
+export default function Pattern(props) {
   return(
     <div>
-      {value}  
+      {props.value}  
     </div>
   )
+}
+
+Pattern.propTypes = {
+    value: PropTypes.string
 }
